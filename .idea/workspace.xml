@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="780b8e31-96b4-48d8-942e-1ff3e862d8da" name="Default" comment="" />
+    <list default="true" id="780b8e31-96b4-48d8-942e-1ff3e862d8da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy" />
+    </list>
     <ignored path="CiberAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -68,14 +71,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/mx/com/robertoleon/ciberadmin/controller/login/LoginController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="42" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.092391305">
+            <state line="89" column="42" selection-start="2929" selection-end="2929" vertical-scroll-proportion="-0.73913044">
               <folding>
                 <element signature="e#56#132#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Permiso.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="154" selection-end="154" vertical-scroll-proportion="0.19209039">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -137,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/mx/com/robertoleon/ciberadmin/controller/login/LogoutController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
@@ -146,6 +160,7 @@
         <option value="$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Usuario.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/login/IniciarSesion.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/mx/com/robertoleon/ciberadmin/controller/login/LoginController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy" />
       </list>
     </option>
   </component>
@@ -494,7 +509,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -514,7 +529,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3474026" sideWeight="0.4301948" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3474026" sideWeight="0.4301948" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5698052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -613,14 +628,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="215" selection-end="215" vertical-scroll-proportion="0.49275362" />
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="97" selection-start="4742" selection-end="4742" vertical-scroll-proportion="0.0" />
@@ -667,11 +674,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/mx/com/robertoleon/ciberadmin/controller/login/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="42" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.092391305">
+        <state line="89" column="42" selection-start="2929" selection-end="2929" vertical-scroll-proportion="-0.73913044">
           <folding>
             <element signature="e#56#132#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/mx/com/robertoleon/ciberadmin/domain/login/Permiso.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="154" selection-end="154" vertical-scroll-proportion="0.19209039">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

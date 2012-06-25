@@ -6,6 +6,7 @@ class Permiso {
     static mapping = {
         cache true
     }
+    //comentario
     static constraints = {
         authority blank: false, unique: true
     }
